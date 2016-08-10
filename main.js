@@ -691,7 +691,7 @@ game.END = {
 			
 	    		$.ajax({
 				  type: "POST",
-				  url: "http://localhost:8000/set/",
+				  url: "https://localhost:8000/set/",
 				  data: {username: person, scores: globalHighScore},
 				  success: function(resp) {
 				  	console.log(resp)
