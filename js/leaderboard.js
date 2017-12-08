@@ -26,7 +26,6 @@ $.ajax({
  	},
  	error: function()
  	{
- 		alert("Ajax error: could not access URL");
  	}
   
 	});
